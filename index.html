@@ -6,7 +6,7 @@
 <title>Casona del Abuelo | Cocina Típica Chilena en Ñuñoa</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -16,8 +16,9 @@
       <a href="#inicio" class="logo">Casona <span>del Abuelo</span></a>
       <nav class="nav">
         <a href="#inicio">Inicio</a>
+        <a href="#horarios">Horarios</a>
         <a href="#nosotros">Nosotros</a>
-        <a href="#menu">Menú</a>
+        <a href="menu.html">Menú</a>
         <a href="#contacto">Contacto</a>
       </nav>
     </div>
@@ -31,7 +32,7 @@
       <h1>Sabores de siempre,<br> con el cariño de casa</h1>
       <p class="hero__text">Cocina típica chilena preparada como en casa de la abuela: fuego lento, recetas de siempre y mucho cariño en cada plato.</p>
       <div class="hero__buttons">
-        <a href="#menu" class="btn btn--primary">Ver el Menú</a>
+        <a href="menu.html" class="btn btn--primary">Ver el Menú</a>
         <a href="https://wa.me/56958451074" target="_blank" rel="noopener" class="btn btn--whatsapp">
           <svg viewBox="0 0 24 24" class="icon-wsp" aria-hidden="true">
             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
@@ -39,6 +40,22 @@
           </svg>
           Escríbenos
         </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- HORARIOS -->
+  <section id="horarios" class="schedule">
+    <div class="container">
+      <span class="tag tag--center">Horarios de atención</span>
+      <h2 class="section-title">Te esperamos todos los días</h2>
+      <div class="schedule__grid">
+        <div class="schedule__card">
+          <img src="imagen1.png" alt="Desayunos Casona del Abuelo, horario 8:30 a 12:30">
+        </div>
+        <div class="schedule__card">
+          <img src="imagen2.png" alt="Almuerzos Casona del Abuelo, horario 13:00 a 17:00">
+        </div>
       </div>
     </div>
   </section>
@@ -53,10 +70,33 @@
         <p>Nuestro objetivo es recibir a nuestros comensales y atenderlos con simpleza y amabilidad para que se sientan como en su casa, como nuestro invitado de honor.</p>
         <blockquote>"Nada mejor que un buen pollito asado al estilo" <span>— Casona del Abuelo</span></blockquote>
       </div>
-      <div class="about__decor" aria-hidden="true">
-        <div class="about__frame"></div>
+      <div class="about__decor">
+        <div class="about__frame">
+          <img src="imagen4.png" alt="Fachada de Casona del Abuelo en Ñuñoa">
+        </div>
       </div>
     </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section id="galeria" class="gallery">
+    <div class="container">
+      <span class="tag tag--center">Nuestro local</span>
+      <h2 class="section-title">Un espacio cálido y familiar</h2>
+      <div class="gallery__grid">
+        <div class="gallery__item">
+          <img src="imagen5.png" alt="Comedor de Casona del Abuelo con mesas de madera">
+        </div>
+        <div class="gallery__item">
+          <img src="imagen6.png" alt="Mesa y sillas de madera del comedor">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BANNER CONDIMENTOS -->
+  <section class="banner-strip">
+    <img src="imagen3.png" alt="Aceites y aliños en la mesa de Casona del Abuelo">
   </section>
 
   <!-- MENU DESTACADO -->
@@ -70,6 +110,7 @@
           <p>Nuestro plato insignia, cocinado a fuego lento con las recetas de siempre.</p>
         </div>
         <div class="menu__card">
+          <img src="imagen7.png" alt="Cazuela tradicional chilena" class="menu__card-img">
           <h3>Cocina Típica</h3>
           <p>Los sabores tradicionales de Chile, preparados por especialistas en cocina criolla.</p>
         </div>
@@ -79,6 +120,7 @@
         </div>
       </div>
       <div class="menu__cta">
+        <a href="menu.html" class="btn btn--primary">Ver Menú Completo</a>
         <a href="https://wa.me/56958451074" target="_blank" rel="noopener" class="btn btn--outline">Consultar por WhatsApp</a>
       </div>
     </div>
@@ -121,7 +163,6 @@
   <footer class="footer">
     <div class="container footer__inner">
       <p>&copy; 2026 Casona del Abuelo — Av. Sucre 2585, Ñuñoa</p>
-      <p>—Desarrollado por NIVVUX (nivvux.com)—</p>
     </div>
   </footer>
 
